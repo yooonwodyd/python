@@ -1,0 +1,16 @@
+
+
+num_case = []
+
+while True:
+    a = int(input("숫자를 입력해주세요.(종료는 0을 입력))\n") )
+    if a == 0:
+        break;
+    else:
+        num_case.append(a)
+
+print("중복된 숫자를 제거하는 중...")
+non_overlapping_num = list(set(num_case))
+print("제거 완료")
+
+print(non_overlapping_num)
