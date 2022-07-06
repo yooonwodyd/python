@@ -1,0 +1,11 @@
+
+drawer = {1: "시계를 발견했다.",2: "신용카드를 발견했다.",3: "열쇠를 발견했다."}
+
+print("몇 번째 서랍을 여시겠습니까?")
+answer = int(input())
+
+print(drawer[answer])
+
+
+
+
